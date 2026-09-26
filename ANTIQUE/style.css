@@ -27,8 +27,13 @@ body{
 
 header{
     width: 100%;
-    background-color: var(--marine-blue);
-    border-bottom: 4px solid #c39738;
+         background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/back.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    border-bottom: 4px solid var(--butter-yellow);
 }
 
 .header-conteudo{
@@ -44,6 +49,14 @@ header{
 .logo img{
     height: 80px;
     width: 80px;
+    opacity: 0.70;
+    transition: 0.3s;
+}
+
+.logo img:hover{
+    color: var(--bright-red);
+    transform: translateY(-3px);
+    transform: translateX(-3px);
 }
 
 
@@ -53,7 +66,7 @@ nav{
 }
 
 nav a{
-    color: #e5d3a8;
+    color: var(--butter-yellow);
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -63,7 +76,9 @@ nav a{
 }
 
 nav a:hover{
-    color: #d6ad52;
+    color: var(--bright-red);
+    transform: translateX(-3px);
+    transform: translateY(-3px);
 }
 
 
@@ -73,7 +88,7 @@ nav a:hover{
     overflow: hidden;
     background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/fundo-textura.jpg");
+        url("img/back.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -89,6 +104,7 @@ nav a:hover{
     width: 90%;
     max-width: 1200px;
 }
+
 
 .hero-texto{
     text-align: center;
@@ -158,22 +174,33 @@ nav a:hover{
     transition: 0.3s;
 }
 
+
+
 .botao-lineup:hover{
     transform: translateY(-3px);
     background-color: var(--dark);
     color: var(--butter-yellow);
+    transform: translateX(-2px);
 }
+
 .hero-linha{
-    background-color: #661f26;
+    background-color: var(--marine-blue);
     text-align: center;
-    border-top: 4px 4px 0#241a14;
-    border-bottom: 4px 4px 0#241a14;
+    border-top: 8px 8px 0 var(--butter-yellow);
+    border-bottom: 8px 8px 0 var(--butter-yellow);
     padding: 18px 0;
     overflow: hidden;
 }
 
+.hero-linha span{
+color: var(--bright-red)
+
+
+
+}
+
 .hero-linha p{
-    color: #e5d3a8;
+    color: var(--butter-yellow);
     font-family: Georgia, serif;
     font-size: 20px;
     font-weight: bold;
@@ -184,7 +211,11 @@ nav a:hover{
 
 .sobre-festival{
     padding: 100px 20px;
-    background-color: #e5d3a8;
+     background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/back.jpg");
+    background-size: cover;
+    background-position: center;
     
 
 }
@@ -196,7 +227,7 @@ nav a:hover{
 }
 
 .mini-conteudo{
-    color: #661f26;
+    color: var(--bright-red);
     font-family: georgia, serif;
     font-size: 30px;
     font-weight: bold;
@@ -205,20 +236,20 @@ nav a:hover{
 }
 
 .sobre-conteudo h2{
-    color: #241a14;
+    color: var(--butter-yellow);
     font-family: georgia, serif;
     line-height: 1;
     font-size: 58px;
 }
 
 .sobre-conteudo h2 span{
-    color: #a43b2b;
+    color: var(--bright-red);
     display: block;
 }
 
 .sobre-texto{
     max-width: 750px;
-    color: #3a2a20;
+    color: var(--butter-yellow);
     font-family: georgia, serif;
     font-size: 20px;
     line-height: 1.7;
@@ -226,7 +257,11 @@ nav a:hover{
 
 
 .lineup {
-    background-color: #e5d3a8;
+    background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/back.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 100px 20px 20px;
 }
 
