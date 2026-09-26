@@ -29,7 +29,7 @@ header{
     width: 100%;
          background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/header.png");
     background-size: cover;
     background-position: center;
     
@@ -55,8 +55,7 @@ header{
 
 .logo img:hover{
     color: var(--bright-red);
-    transform: translateY(-3px);
-    transform: translateX(-3px);
+    transform: translate(-5px, -5px);
 }
 
 
@@ -77,8 +76,8 @@ nav a{
 
 nav a:hover{
     color: var(--bright-red);
-    transform: translateX(-3px);
-    transform: translateY(-3px);
+     transform: translate(-5px, -5px);
+
 }
 
 
@@ -88,7 +87,7 @@ nav a:hover{
     overflow: hidden;
     background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/1-papel.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -177,10 +176,10 @@ nav a:hover{
 
 
 .botao-lineup:hover{
-    transform: translateY(-3px);
+    transform: translate(-5px, -5px);
     background-color: var(--dark);
     color: var(--butter-yellow);
-    transform: translateX(-2px);
+    
 }
 
 .hero-linha{
@@ -213,7 +212,7 @@ color: var(--bright-red)
     padding: 100px 20px;
      background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/2-papel.png");
     background-size: cover;
     background-position: center;
     
@@ -233,6 +232,7 @@ color: var(--bright-red)
     font-weight: bold;
     letter-spacing: 4px;
     margin-bottom: 20px;
+    text-shadow: 3px 3px var(--dark);
 }
 
 .sobre-conteudo h2{
@@ -240,17 +240,21 @@ color: var(--bright-red)
     font-family: georgia, serif;
     line-height: 1;
     font-size: 58px;
+    text-shadow: 3px 3px var(--dark);
+
 }
 
 .sobre-conteudo h2 span{
     color: var(--bright-red);
     display: block;
+    text-shadow: 4px 4px var(--dark);
 }
 
 .sobre-texto{
     max-width: 750px;
     color: var(--butter-yellow);
     font-family: georgia, serif;
+  text-shadow: 3px 3px var(--dark);
     font-size: 20px;
     line-height: 1.7;
 }
@@ -259,7 +263,7 @@ color: var(--bright-red)
 .lineup {
     background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/3-papel.png");
     background-size: cover;
     background-position: center;
     padding: 100px 20px 20px;
@@ -277,6 +281,7 @@ color: var(--bright-red)
     font-weight: bold;
     letter-spacing: 4px;
     color:var(--bright-red);
+    text-shadow: 3px 3px var(--dark);
     margin-bottom: 20px;
 }
 
@@ -285,6 +290,7 @@ color: var(--bright-red)
     font-size: 58px;
     font-family: georgia, serif;
     line-height: 1;
+    text-shadow: 3px 3px var(--dark);
 
 }
 
@@ -317,12 +323,14 @@ color: var(--bright-red)
     font-size: 30px;
     color: var(--bright-red);
     margin-bottom: 10px;
+    text-shadow: 1px 1px var(--dark);
 }
 .banda-info p{
     font-size: 16px;
     font-weight: bold;
     color:var(--muted-red);
     margin-bottom: 15px;
+    text-shadow: 1px 1px var(--dark);
     
 
 }
@@ -372,7 +380,7 @@ color: var(--bright-red)
 .estrutura {
         background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/4-papel.png");
         background-size: cover;
     background-position: center;
     padding: 100px 20px 20px;
@@ -389,6 +397,7 @@ color: var(--bright-red)
     font-size: 30px;
     font-family: georgia, serif;
     font-weight: bold;
+    text-shadow: 3px 3px var(--dark);
     letter-spacing: 4px;
     color:var(--bright-red);
     margin-bottom: 20px;
@@ -397,6 +406,7 @@ color: var(--bright-red)
 .estrutura-conteudo h2{
     color:var(--butter-yellow);
     font-size: 58px;
+    text-shadow: 3px 3px var(--dark);
     font-family: georgia, serif;
     line-height: 1;
     margin-bottom: 50px;
@@ -463,7 +473,7 @@ color: var(--bright-red)
 .ingressos {
         background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/Imagem\ do\ ChatGPT\ 26\ de\ set.\ de\ 2026\,\ 17_00_49.png");
         background-size: cover;
     background-position: center;
     padding: 100px 20px 20px;
@@ -478,6 +488,7 @@ color: var(--bright-red)
 
 .ingressos-e h2{
     color:var(--butter-yellow);
+    text-shadow: 3px 3px var(--dark);
     font-size: 58px;
     font-family: georgia, serif;
     line-height: 1;
@@ -498,9 +509,11 @@ color: var(--bright-red)
     letter-spacing: 4px;
     color:var(--bright-red);
     margin-bottom: 20px;
+    text-shadow: 3px 3px var(--dark);
 }
 .ingressos-c {
     color: var(--bright-red);
+    text-shadow: 2px 2px var(--dark);
     font-family: Georgia, serif;
     font-size: 45px;
     font-weight: bold;
@@ -590,12 +603,13 @@ color: var(--bright-red)
 .botao-ingresso:hover{
     background-color: #241a14;
     color: #e5d3a8;
+    transform: translate(-3px -3px);
 }
 
 .contato {
-          background-image:
+        background-image:
         linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
-        url("img/back.jpg");
+        url("img/cnt-papel.png");
         background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -665,10 +679,14 @@ color: var(--bright-red)
 }
 
 footer {
-    background-color: var(--marine-blue);
+    background-i;
     padding: 40px 20px;
     text-align: center;
     border-top: 3px solid var(--butter-yellow);
+    background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/footer.png");
+
 }
 
 .footer-conteudo {
