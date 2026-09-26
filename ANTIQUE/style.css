@@ -186,8 +186,8 @@ nav a:hover{
 .hero-linha{
     background-color: var(--marine-blue);
     text-align: center;
-    border-top: 8px 8px 0 var(--butter-yellow);
-    border-bottom: 8px 8px 0 var(--butter-yellow);
+    border-top: 2px solid var(--butter-yellow);
+    border-bottom: 2px solid var(--butter-yellow);
     padding: 18px 0;
     overflow: hidden;
 }
@@ -298,7 +298,7 @@ color: var(--bright-red)
     flex-direction: column;
     text-align: center;
     gap: 20px;
-    padding: 40px 0;
+    padding: 10px 0;
 }
 
 .banda img{
@@ -339,7 +339,7 @@ color: var(--bright-red)
 
 .banda{
     width: 100%;
-    background-color: #dad2c4;
+    background-color: var(--butter-yellow);
     border-top: 3px solid var(--plum-purple);
     border-bottom: 3px solid #var(--plum-purple);
     border-left: 3px solid #var(--plum-purple);
@@ -347,7 +347,7 @@ color: var(--bright-red)
     border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     box-shadow: 8px 8px 0 var(--bright-red);
     overflow: hidden;
     transform-origin: left center; 
@@ -358,18 +358,23 @@ color: var(--bright-red)
     transform: translate(-5px, -5px);
     box-shadow: 10px 10px 0 var(--bright-red);
 }
+
 .tag{
-    color: #661f26;
+    color: var(--butter-yellow);
     padding: 4px 4px;
     border: 2px solid#3a2a20;
-    background-color: #c39738;
+    background-color: var(--bright-red);
     font-family: georgia, serif;
     font-weight: bold;
 }
 
 
 .estrutura {
-    background-color: #e5d3a8;
+        background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/back.jpg");
+        background-size: cover;
+    background-position: center;
     padding: 100px 20px 20px;
     
 }
@@ -385,12 +390,12 @@ color: var(--bright-red)
     font-family: georgia, serif;
     font-weight: bold;
     letter-spacing: 4px;
-    color:#661f26;
+    color:var(--bright-red);
     margin-bottom: 20px;
 }
 
 .estrutura-conteudo h2{
-    color:#241a14;
+    color:var(--butter-yellow);
     font-size: 58px;
     font-family: georgia, serif;
     line-height: 1;
@@ -400,7 +405,7 @@ color: var(--bright-red)
 
 .estrutura-conteudo h2 span{
     display: block;
-    color:#a43b2b;
+    color:var(--bright-red);
 }
 
 .cards {
@@ -411,10 +416,10 @@ color: var(--bright-red)
 
 .card {
     width: calc(33.33% - 20px);
-    background-color: #dad2c4;
+    background-color: var(--butter-yellow);
     border: 3px solid #3a2a20;
     border-radius: 8px;
-    box-shadow: 7px 7px 0 #241a14;
+    box-shadow: 7px 7px 0 var(--bright-red);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -422,8 +427,9 @@ color: var(--bright-red)
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 10px 10px 0 #661f26;
+    transform: translate(-5px, -5px);
+    box-shadow: 10px 10px 0 var(--bright-red);
+  
 }
 
 .card img {
@@ -440,7 +446,7 @@ color: var(--bright-red)
 }
 
 .cards-info h3 {
-    color: #661f26;
+    color: var(--bright-red);
     font-family: Georgia, serif;
     font-size: 25px;
     margin-bottom: 12px;
@@ -448,14 +454,18 @@ color: var(--bright-red)
 }
 
 .cards-info p {
-    color: #3a2a20;
+    color: var(--dark);
     font-family: Georgia, serif;
     font-size: 15px;
     line-height: 1.5;
 }
 
 .ingressos {
-    background-color: #e5d3a8;
+        background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/back.jpg");
+        background-size: cover;
+    background-position: center;
     padding: 100px 20px 20px;
     
 }
@@ -467,7 +477,7 @@ color: var(--bright-red)
 }
 
 .ingressos-e h2{
-    color:#241a14;
+    color:var(--butter-yellow);
     font-size: 58px;
     font-family: georgia, serif;
     line-height: 1;
@@ -478,18 +488,19 @@ color: var(--bright-red)
 
 .ingressos-e h2 span{
     display: block;
-    color:#a43b2b;
+    color:var(--bright-red);
 }
 
 .ingressos-p {
-    font-size: 50px;
+    font-size: 30px;
     font-family: georgia, serif;
     font-weight: bold;
-    color:#661f26;
-    margin-bottom: 50px;
+    letter-spacing: 4px;
+    color:var(--bright-red);
+    margin-bottom: 20px;
 }
 .ingressos-c {
-    color: #661f26;
+    color: var(--bright-red);
     font-family: Georgia, serif;
     font-size: 45px;
     font-weight: bold;
@@ -498,7 +509,7 @@ color: var(--bright-red)
 
 
 .ingressos-b {
-    background-color: #dad2c4;
+    background-color: var(--butter-yellow);
     border: 3px solid #3a2a20;
     border-radius: 8px;
     box-shadow: 7px 7px 0 #241a14;
@@ -515,14 +526,14 @@ color: var(--bright-red)
 }
 
 .ingressos-info h4 {
-    color: #a43b2b;
+    color: var(--bright-red);
     font-size: 30px;
     font-family: Georgia, serif;
     margin-bottom: 20px;
 }
 
 .ingressos-info p {
-    color: #3a2a20;
+    color: var(--dark);
     font-size: 20px;
     font-weight: bold;
     font-family: Georgia, serif;
@@ -530,7 +541,7 @@ color: var(--bright-red)
 }
 
 .dinheiro p {
-    color: #661f26;
+    color: var(--bright-red);
     font-size: 30px;
     font-weight: bold;
 }
@@ -544,7 +555,7 @@ color: var(--bright-red)
 }
 
 .quantidade h5{
-    color: #661f26;
+    color: var(--bright-red);
     font-weight: bold;
     font-size: 25px;
     font-family: georgia, serif;
@@ -582,7 +593,11 @@ color: var(--bright-red)
 }
 
 .contato {
-    background-color: #e5d3a8;
+          background-image:
+        linear-gradient(rgba(23, 59, 87, 0.45), rgba(23, 59, 87, 0.80)),
+        url("img/back.jpg");
+        background-size: cover;
+    background-position: center;
     padding: 100px 20px;
 }
 
@@ -593,7 +608,7 @@ color: var(--bright-red)
 }
 
 .contato-p {
-    color: #661f26;
+    color: var(--bright-red);
     font-family: Georgia, serif;
     font-size: 30px;
     font-weight: bold;
@@ -602,7 +617,7 @@ color: var(--bright-red)
 }
 
 .contato-conteudo h2 {
-    color: #241a14;
+    color: var(--butter-yellow);
     font-family: Georgia, serif;
     font-size: 58px;
     line-height: 1;
@@ -611,12 +626,12 @@ color: var(--bright-red)
 
 .contato-conteudo h2 span {
     display: block;
-    color: #a43b2b;
+    color: var(--bright-red);
 }
 
 .contato-texto {
     max-width: 700px;
-    color: #a43b2b;
+    color: var(--butter-yellow);
     font-family: Georgia, serif;
     font-size: 18px;
     line-height: 1.6;
@@ -630,12 +645,12 @@ color: var(--bright-red)
 
 .contato-item {
     width: calc(33.33% - 20px);
-    border-top: 3px solid #c39738;
+    border-top: 3px solid var(--butter-yellow);
     padding-top: 20px;
 }
 
 .contato-item h3 {
-    color: #661f26;
+    color: var(--bright-red);
     font-family: Georgia, serif;
     font-size: 22px;
     margin-bottom: 15px;
@@ -643,16 +658,17 @@ color: var(--bright-red)
 }
 
 .contato-item p {
-    color: #241a14;
+    color: var(--butter-yellow);
     font-family: Georgia, serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 footer {
-    background-color: #241a14;
+    background-color: var(--marine-blue);
     padding: 40px 20px;
     text-align: center;
+    border-top: 3px solid var(--butter-yellow);
 }
 
 .footer-conteudo {
@@ -662,7 +678,7 @@ footer {
 }
 
 .footer-conteudo h2 {
-    color: #c39738;
+    color: var(--butter-yellow);
     font-family: Georgia, serif;
     font-size: 28px;
     letter-spacing: 3px;
@@ -670,7 +686,7 @@ footer {
 }
 
 .footer-conteudo p {
-    color: #e5d3a8;
+    color: var(--butter-yellow);
     font-family: Georgia, serif;
     font-size: 14px;
     margin-bottom: 10px;
